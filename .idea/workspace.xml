@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="835b2c6a-5bfe-496b-917e-bdf989e12183" name="Default" comment="delivery report changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Color.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ColorController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ItemTypeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PurchaseController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ItemType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Order.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/OrderMeta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/OrderProductColor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ProductCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ProductColorPurcahses.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ProductColors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ProductStocks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ProductTypes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Purchases.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/deliveryChallan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/deliveryChallanDetails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_11_121914_categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_11_122023_types.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_11_122036_colors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_29_141527_products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_03_125123_clients.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_06_135321_orders.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_06_140008_order_meta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_07_100741_product_category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_07_100812_product_type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_07_100846_product_color.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_19_142428_create_delivery_challans_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_26_143257_create_purchases_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_26_143955_create_product_color_purcahses_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_03_094204_create_order_product_colors_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_10_115908_create_delivery_challan_details_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTablesSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTablesSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categories/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clients/add_client.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clients/clients.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clients/edit_client.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clients/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clients/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/colors/add_color.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/colors/colors.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/colors/edit_color.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/distributor/clients_order.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/distributor/distributor_order.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/distributor/show_balance_delivery.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/distributor/show_completed_delivery.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/cart/cart.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/head.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/nav.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/script.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/products/checkout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/products/product.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/products/product_detail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/reports/deliveryChallan.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/reports/orderReport.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/reports/orderReportDetail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/order/order.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/order/vieworder.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/add_product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/add_product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/purchases/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/purchases/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/purchases/view.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/CreateDevliveryChallan.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/challan.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/deliveryChallen.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/delivery_challan_detail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/delivery_challan_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/delivery_challan_report_detail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/order_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/productLedger.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/product_ledger_detail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/saleStock.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/sale_stock_detail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/sales_stock_cities_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/sales_stock_colors_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/sales_stock_dates_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/sales_stock_distributors_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/stock.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/stock_detail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/types/add_item_type.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/types/edit_item_type.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/types/item_types.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/add_user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/add_user.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/login</find>
+      <find>login</find>
+      <find>report/viewChallan</find>
+      <find>{{ route('clients') }}</find>
+      <find>get_deliveryChallen</find>
+      <find>get_all_orders</find>
+      <find>get_all_clients_order</find>
+      <find>get_all_distributors_orders</find>
+      <find>get_userOrderReportDetail</find>
+      <find>order/list/Distributor</find>
+      <find>report</find>
+      <find>order/list/balanceDelivery</find>
+      <find>get_Challan_detail</find>
+      <find>get_all_balance_orders</find>
+      <find>order/detail/</find>
+      <find>/order/detail/{id}</find>
+      <find>/order/edit/{id}</find>
+      <find>$qty_delivered &lt;= $actual_qty</find>
+      <find>order.list.completedDelivery</find>
+      <find>qty_approved_distributor[]</find>
+      <find>order_product_color_id</find>
+      <find>order/list/Client</find>
+      <find>order/list/</find>
+      <find>order.list</find>
+      <find>status</find>
+      <find>report/CreatedeliveryChallan</find>
+      <find>createView_deliveryChallan</find>
+      <find>distributors</find>
+      <find>get_saleStock</find>
+      <find>$cities</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Colors</replace>
+      <replace>Color</replace>
+      <replace>Users</replace>
+      <replace>User</replace>
+      <replace>role_name</replace>
+      <replace>Item Types</replace>
+      <replace>Item Type</replace>
+      <replace>Edit</replace>
+      <replace>Inventory</replace>
+      <replace>Customer</replace>
+      <replace>Clients</replace>
+      <replace>Client</replace>
+      <replace>$client</replace>
+      <replace>ProductStocks</replace>
+      <replace>&lt;th style=&quot;font-size: 14px ;font-weight: bold;  border-right: 1px solid black;&quot;&gt;</replace>
+      <replace>&lt;td style=&quot;border-right: 1px solid black;&quot;&gt;</replace>
+      <replace>#</replace>
+      <replace>colors</replace>
+      <replace>cities</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\erp</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1TSxB4FfABQED9iXLsUlY0OYuRB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT&#10;HTML" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/purchases" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\erp\erp\resources\views\frontend\products" />
+      <recent name="C:\xampp\htdocs\erp\resources\views\layouts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\erp\resources\views\purchases" />
+      <recent name="C:\xampp\htdocs\erp" />
+      <recent name="C:\xampp\htdocs\erp\erp-old\erp\resources\views\frontend\reports" />
+      <recent name="C:\xampp\htdocs\erp\erp-old\erp\resources\views\purchases" />
+      <recent name="C:\xampp\htdocs\erp\erp-old\erp\resources\views\reports" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="835b2c6a-5bfe-496b-917e-bdf989e12183" name="Default" comment="" />
+      <created>1554983405792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554983405792</updated>
+      <workItem from="1554983407217" duration="39148000" />
+      <workItem from="1555153925404" duration="11000" />
+      <workItem from="1556008101513" duration="39778000" />
+      <workItem from="1556178305859" duration="43000" />
+      <workItem from="1556185585676" duration="23955000" />
+      <workItem from="1556521979619" duration="30551000" />
+      <workItem from="1556871054129" duration="38720000" />
+      <workItem from="1557208459891" duration="13513000" />
+      <workItem from="1557225485220" duration="607000" />
+      <workItem from="1557232839813" duration="16989000" />
+      <workItem from="1557474095715" duration="7334000" />
+      <workItem from="1557667967970" duration="48000" />
+      <workItem from="1557737386961" duration="2036000" />
+      <workItem from="1557990543729" duration="3524000" />
+      <workItem from="1558076830578" duration="13000" />
+      <workItem from="1558680834821" duration="11888000" />
+      <workItem from="1559110993803" duration="12279000" />
+      <workItem from="1559198476554" duration="20937000" />
+      <workItem from="1559285974052" duration="18513000" />
+      <workItem from="1560162013875" duration="4868000" />
+      <workItem from="1560181375860" duration="778000" />
+      <workItem from="1560259835271" duration="7864000" />
+      <workItem from="1560269330617" duration="8000" />
+      <workItem from="1560327064133" duration="1107000" />
+      <workItem from="1560783374144" duration="6563000" />
+      <workItem from="1560847757680" duration="31270000" />
+      <workItem from="1560930625156" duration="27404000" />
+      <workItem from="1561016405686" duration="591000" />
+      <workItem from="1561018368103" duration="17296000" />
+      <workItem from="1561118979766" duration="4050000" />
+      <workItem from="1561361838909" duration="4010000" />
+      <workItem from="1561547650866" duration="25743000" />
+      <workItem from="1561577023399" duration="373000" />
+      <workItem from="1561628499332" duration="8731000" />
+      <workItem from="1561718628004" duration="22000" />
+      <workItem from="1562058115644" duration="24871000" />
+      <workItem from="1562145071478" duration="21678000" />
+      <workItem from="1562233391636" duration="13989000" />
+      <workItem from="1562323799304" duration="4377000" />
+      <workItem from="1562573915401" duration="12383000" />
+      <workItem from="1562662070286" duration="7146000" />
+      <workItem from="1562676546114" duration="11752000" />
+      <workItem from="1562755083586" duration="17518000" />
+      <workItem from="1562838285973" duration="9030000" />
+      <workItem from="1562934824072" duration="1142000" />
+      <workItem from="1563527168374" duration="598000" />
+      <workItem from="1567587484212" duration="15187000" />
+      <workItem from="1567685743606" duration="4406000" />
+      <workItem from="1567767875262" duration="10736000" />
+      <workItem from="1568193119747" duration="9177000" />
+      <workItem from="1568211941272" duration="3904000" />
+      <workItem from="1568642943764" duration="2018000" />
+      <workItem from="1568645020050" duration="54402000" />
+      <workItem from="1568878005012" duration="10031000" />
+      <workItem from="1568899917741" duration="5903000" />
+      <workItem from="1568964211967" duration="26744000" />
+      <workItem from="1569046200819" duration="2017000" />
+      <workItem from="1573467160453" duration="14260000" />
+    </task>
+    <task id="LOCAL-00001" summary="delivery changes">
+      <created>1568649216729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568649216729</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delivery changes">
+      <created>1568650840436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568650840436</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delivery changes">
+      <created>1568709261152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568709261152</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delivery changes">
+      <created>1568734604771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568734604772</updated>
+    </task>
+    <task id="LOCAL-00005" summary="delivery changes">
+      <created>1568791180195</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568791180195</updated>
+    </task>
+    <task id="LOCAL-00006" summary="delivery changes">
+      <created>1568794444064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568794444065</updated>
+    </task>
+    <task id="LOCAL-00007" summary="delivery changes">
+      <created>1568802398098</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568802398098</updated>
+    </task>
+    <task id="LOCAL-00008" summary="delivery changes">
+      <created>1568809996989</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568809996989</updated>
+    </task>
+    <task id="LOCAL-00009" summary="corrections in distributor">
+      <created>1568812720532</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568812720532</updated>
+    </task>
+    <task id="LOCAL-00010" summary="corrections in distributor">
+      <created>1568815724199</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568815724199</updated>
+    </task>
+    <task id="LOCAL-00011" summary="corrections in distributor">
+      <created>1568831429031</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568831429032</updated>
+    </task>
+    <task id="LOCAL-00012" summary="corrections in distributor">
+      <created>1568831651014</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568831651014</updated>
+    </task>
+    <task id="LOCAL-00013" summary="corrections in distributor">
+      <created>1568879542386</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568879542386</updated>
+    </task>
+    <task id="LOCAL-00014" summary="corrections in distributor">
+      <created>1568879634003</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568879634003</updated>
+    </task>
+    <task id="LOCAL-00015" summary="corrections in distributor">
+      <created>1568879698785</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568879698785</updated>
+    </task>
+    <task id="LOCAL-00016" summary="corrections in distributor">
+      <created>1568887817927</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1568887817927</updated>
+    </task>
+    <task id="LOCAL-00017" summary="corrections in distributor">
+      <created>1568907116090</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568907116090</updated>
+    </task>
+    <task id="LOCAL-00018" summary="corrections in distributor">
+      <created>1568907818195</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1568907818195</updated>
+    </task>
+    <task id="LOCAL-00019" summary="corrections in distributor">
+      <created>1568908483522</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568908483522</updated>
+    </task>
+    <task id="LOCAL-00020" summary="corrections in distributor">
+      <created>1568908900819</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1568908900819</updated>
+    </task>
+    <task id="LOCAL-00021" summary="corrections in distributor">
+      <created>1568909282799</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1568909282799</updated>
+    </task>
+    <task id="LOCAL-00022" summary="corrections in distributor">
+      <created>1568972512683</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1568972512683</updated>
+    </task>
+    <task id="LOCAL-00023" summary="corrections in distributor">
+      <created>1568973507732</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1568973507732</updated>
+    </task>
+    <task id="LOCAL-00024" summary="corrections in distributor">
+      <created>1568973541042</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1568973541042</updated>
+    </task>
+    <task id="LOCAL-00025" summary="corrections in distributor">
+      <created>1568978690619</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568978690619</updated>
+    </task>
+    <task id="LOCAL-00026" summary="corrections in distributor">
+      <created>1568978796542</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1568978796542</updated>
+    </task>
+    <task id="LOCAL-00027" summary="corrections in distributor">
+      <created>1568978989638</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1568978989638</updated>
+    </task>
+    <task id="LOCAL-00028" summary="delivery changes">
+      <created>1568983135677</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1568983135677</updated>
+    </task>
+    <task id="LOCAL-00029" summary="delivery changes">
+      <created>1568990853377</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1568990853377</updated>
+    </task>
+    <task id="LOCAL-00030" summary="delivery report changes">
+      <created>1568996072399</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1568996072399</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="corrections in distributor" />
+    <MESSAGE value="delivery changes" />
+    <MESSAGE value="delivery report changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="delivery report changes" />
+  </component>
+</project>

@@ -1,0 +1,67 @@
+<?php
+
+namespace App\Notifications;
+
+use Illuminate\Bus\Queueable;
+use Illuminate\Notifications\Notification;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Notifications\Messages\MailMessage;
+
+class OrderrejectedEmail extends Notification
+{
+    use Queueable;
+
+    /**
+     * Create a new notification instance.
+     *
+     * @return void
+     */
+    public function __construct($order)
+    {
+        //
+        $this->order = $order;
+    }
+
+    /**
+     * Get the notification's delivery channels.
+     *
+     * @param  mixed  $notifiable
+     * @return array
+     */
+    public function via($notifiable)
+    {
+        return ['mail'];
+    }
+
+    /**
+     * Get the mail representation of the notification.
+     *
+     * @param  mixed  $notifiable
+     * @return \Illuminate\Notifications\Messages\MailMessage
+     */
+    public function toMail($notifiable)
+    {
+//        dd($this->)
+        return (new MailMessage)
+            ->subject('Status Updated') // it will use this class name if you don't specify
+            ->greeting('Dear User,') // example: Dear Sir, Hello Madam, etc ...
+            ->level('info')// It is kind of email. Available options: info, success, error. Default: info
+            ->line('Your order with order id:'.$this->order->id.' has been rejected by admin.')
+//            ->line('The Status for order id:'.$this->order->id.' has been rejected by admin.')
+//            ->action('Go to order', route('order.detail',['id' => $this->order->id]))
+            ->line('Thank you for using our application!');
+    }
+
+    /**
+     * Get the array representation of the notification.
+     *
+     * @param  mixed  $notifiable
+     * @return array
+     */
+    public function toArray($notifiable)
+    {
+        return [
+            //
+        ];
+    }
+}

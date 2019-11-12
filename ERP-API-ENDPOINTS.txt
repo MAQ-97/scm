@@ -1,0 +1,38 @@
+Client authentication
+
+Header:
+Authentication
+Body:
+Email, Password
+
+Order
+
+Header:
+Authentication
+Body:
+Product ID, Qty, Client ID, Shipping, Billing, Additional Notes
+
+
+Get Single Order
+
+Header:
+Authentication
+Body:
+Order ID, Client ID
+
+
+Get All Orders
+
+Header:
+Authentication
+Body:
+Client ID
+
+
+All_categories
+
+All_products
+
+All_colors
+
+All_types

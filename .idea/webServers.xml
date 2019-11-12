@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ff0275f7-77d0-45f0-9d25-0b01645307f2" name="luckyduck" url="http://luckyduckdecor.com">
+        <fileTransfer host="luckyduckdecor.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0efe536f-1d9f-4309-ad9c-361631e068b7" name="cleanboot" url="http://158.69.248.42">
+        <fileTransfer host="158.69.248.42" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
